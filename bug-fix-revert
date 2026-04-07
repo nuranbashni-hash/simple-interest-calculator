@@ -1,0 +1,17 @@
+curl https://api.github.com/repos/nuranbashni-hash/simple-interest-calculator/pulls/1
+
+{
+  "url": "https://api.github.com/repos/nuranbashni-hash/simple-interest-calculator/pulls/1",
+  "id": 12345678,
+  "state": "open",
+  "title": "Fixing typos in README",
+  "user": { "login": "nuranbashni-hash" },
+  "head": {
+    "label": "nuranbashni-hash:bug-fix-typo",
+    "repo": { "full_name": "nuranbashni-hash/simple-interest-calculator" }
+  },
+  "base": {
+    "label": "nuranbashni-hash:main",
+    "repo": { "full_name": "nuranbashni-hash/simple-interest-calculator" }
+  }
+}
